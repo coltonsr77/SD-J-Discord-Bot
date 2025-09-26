@@ -1,7 +1,7 @@
 {
-  "name": "uzi-discord-bot",
-  "version": "1.0.3",
-  "description": "Discord bot that uses Google Gemini AI to roleplay as Uzi Doorman",
+  "name": "sdj-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that uses Google Gemini AI to roleplay as SD-J",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,7 +9,7 @@
   "keywords": [
     "discord",
     "bot",
-    "uzi",
+    "SDJ",
     "gemini",
     "google-ai"
   ],
