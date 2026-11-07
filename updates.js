@@ -1,8 +1,8 @@
-const BOT_VERSION = "1.0.3"; // change when you release
+const BOT_VERSION = "1.0.0"; // change when you release
 
 async function checkForUpdates() {
   try {
-    const response = await fetch("https://api.github.com/repos/YourUsername/YourRepo/releases/latest");
+    const response = await fetch("https://api.github.com/repos/coltonsr77/SD-J-Discord-Bot/releases/latest");
     if (!response.ok) throw new Error("Failed to fetch GitHub release info");
 
     const latest = await response.json();
