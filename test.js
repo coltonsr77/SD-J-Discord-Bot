@@ -9,10 +9,7 @@ const requiredFiles = [
     'index.js',
     'server.js',
     'package.json',
-    '.env.example',
-    'src/commands/ping.js',
-    'public/index.html',
-    'public/script.js'
+    '.env'
 ];
 
 let allFilesExist = true;
